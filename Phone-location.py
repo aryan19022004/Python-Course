@@ -2,7 +2,7 @@ import phonenumbers
 from phonenumbers import geocoder
 from phonenumbers import carrier
 
-number = "+919471956079"  # Yaha phone number daalo country code ke saath
+number = "+919471956079"  
 
 parsed_number = phonenumbers.parse(number)
 
