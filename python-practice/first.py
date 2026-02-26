@@ -295,11 +295,11 @@ while True:
     guess = int(input("Enter your guess: "))
     
     if guess > secret_number:
-        print("Too High 📈")
+        print("Too High ")
     elif guess < secret_number:
-        print("Too Low 📉")
+        print("Too Low ")
     else:
-        print("Congratulations 🎉 You guessed it right!")
+        print("Congratulations  You guessed it right!")
         break
 '''
 #19. Random password generator
@@ -323,7 +323,6 @@ def sum(n):
     return result
 
 print(f"The sum of the first {5} natural numbers is {sum(5)}")
-
 
 '''
 
