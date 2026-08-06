@@ -25,7 +25,7 @@ print(file.read())
 file.close()
 
 #Using with statement for better file handling
-with open("example.txt", "r") as file:
+with open("example.txt", "r") as file:  #
     content = file.read()
     print("File Content using with statement:")
     print(content)

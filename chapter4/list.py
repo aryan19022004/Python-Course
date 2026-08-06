@@ -1,5 +1,7 @@
 #Lists in Python
 # A list is a collection of items which is ordered and changeable. In Python, lists are written with square brackets [].
+
+
 #Creating a list
 my_list = [1, 2, 3, 4, 5]
 print(my_list) # Output: [1, 2, 3, 4, 5]
@@ -34,4 +36,4 @@ print(my_list) # Output: [10, 4, 3, 2, 1]
 my_list.clear()
 print(my_list) # Output: []
 
-#If we are performing any method on list then it doest not create another list it just modifies the existing list. So it is not necessary to assign the result of the method to a new variable. For example, if we want to reverse a list then we can simply call the reverse method on the list and it will reverse the list in place. We do not need to assign the result of the reverse method to a new variable.
+#If we are performing any method on list then it doest not create another list it just modifies the existing list. So it is not necessary to assign the result of the method to a new variable. For example, if we want to reverse a list then we can simply call the reverse method on the list and it will reverse the list in place. We do not need to assign the result of the reverse method to a new variable.  Lists are mutable, which means that we can change the elements of a list after it has been created. This is different from strings, which are immutable, meaning that we cannot change the characters of a string after it has been created. When we perform any method on a list, it modifies the existing list in place, rather than creating a new list. This is why we do not need to assign the result of the method to a new variable when we want to modify a list.

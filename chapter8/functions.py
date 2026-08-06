@@ -8,7 +8,15 @@ greet("Alice")  # Output: Hello, Alice!
 def add(a, b):
     return a + b
 result = add(5, 3)
+
+def sum(*args):
+    total = 0
+    for num in args:
+        total += num
+    return total
 print(result)  # Output: 8
+print(sum(1, 2, 3))  # Output: 6
+print(sum(4, 5))     # Output: 9
 #Function with default parameters
 def greet(name="Guest"):
     print("Hello, " + name + "!")

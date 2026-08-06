@@ -19,6 +19,9 @@ marks.sort()
 print("Marks in sorted order:", marks)'''
 
 #Write a program to sum the all elements in a list of numbers.
-numbers = [1,2,3,4,5]
-total = sum(numbers)
-print("Sum of all elements in the list:", total)
+
+
+#Only one element tuple
+single_element_tuple = (5,)  #there is the comma after 5 because without the comma it will be considered as an integer and not a tuple. So to create a single element tuple we need to add a comma after the element. This is a common mistake that people make when creating single element tuples. They forget to add the comma and end up creating an integer instead of a tuple. So always remember to add a comma after the element when creating a single element tuple.   
+print(single_element_tuple)
+print(type(single_element_tuple))

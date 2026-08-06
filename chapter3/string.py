@@ -10,7 +10,7 @@ print(name[:3])  # Output: Ary
 print(name[-1])  # Output: n
 print(name[-2])  # Output: a
 print(name[-3:-1])  # Output: ya
-print(name[:])
+print(name[:])  # 
 
 #Slicing With Step
 print(name[0:4:2])  # Output: Ayan
